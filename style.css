@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+nav 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.btn
+{
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+.btn:hover{
+    cursor: pointer;
+    color: orange;
+    text-decoration: dotted;
+}
+section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer {
+    text-align: center;
+    
+}
